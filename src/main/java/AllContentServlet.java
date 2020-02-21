@@ -32,9 +32,6 @@ public class AllContentServlet extends HttpServlet {
      */
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        PrintWriter out = response.getWriter();
-
-        String cssTag = "<link rel='stylesheet' type='text/css' href='main.css'>";
 
         List<AllInfoRow> rows = new ArrayList<>();
 
