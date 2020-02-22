@@ -13,9 +13,9 @@ public class Database {
 	// If you have the mysql server on your own computer use "localhost" as server
 	// address.
 	private static String databaseServerAddress = "vm23.cs.lth.se";
-	private static String databaseUser = "ab4700ya"; // database login user
-	private static String databasePassword = "ycrhozql"; // database login password
-	private static String database = "ab4700ya"; // the database to use, i.e.
+	private static String databaseUser = ""; // database login user
+	private static String databasePassword = ""; // database login password
+	private static String database = ""; // the database to use, i.e.
 													// default schema
 	Connection conn = null;
 

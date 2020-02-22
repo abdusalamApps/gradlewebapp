@@ -4,7 +4,7 @@
     <title>Hello Page</title>
 </head>
 <body>
-<h1>Admin Page</h1>
+<h1>Member Page</h1>
 <h2>Hello, ${user}!</h2>
 </body>
 </html>

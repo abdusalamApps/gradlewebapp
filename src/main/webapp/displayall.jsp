@@ -19,7 +19,8 @@
                 String[] heads = (String[]) request.getAttribute("heads");
                 for (String head : heads) {
             %>
-            <th><%= head %>
+            <th>
+                <%= head %>
             </th>
             <%
                 }
